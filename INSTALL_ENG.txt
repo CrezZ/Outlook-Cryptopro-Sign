@@ -1,0 +1,16 @@
+1 Open Outlook (not above 2010)
+2 Press Alt-F11, Tools->References
+3 Select checkbox on  "Windows Scripting" library
+4 Menu File->Import, select CryproProSignAttachAndReply.bas
+5 Copy cryptocp.exe into any user accesible folder
+6 In the Outlook in Quick Access ribbon press down arrow (submenu button), Select "Other commands", Select in dropdown list "Macroses", look for "ExecuteSaving", Press "Add->",look for "ChangeCryptoSettings", press "Add->", if you want select custom icon, press Ok->Ok
+7 Click ChangeCryptoSettings button on Quick access ribbon, Select certificate from list(if you installed cryptopro cadescom) or manual select tumbprint, then select path to cryptocp.exe
+
+
+How it works:
+Select a letter, Click ExecuteSaving button on Quick access ribbon
+
+All files will be exported, signed, attachet to reply email
+
+If you want to change certificate, click ChangeCryptoSettings
+
